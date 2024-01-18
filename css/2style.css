@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0;
+    boxx-sizing: border-box;
+}
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+nav{
+    background-color: crimson;
+}
+
+nav > a:{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+nav > a:visited{
+    color: #333;
+}
+
+nav > a:active{
+    color: magenta;
+}
+
+nav > a:hover, nav >a:focus{
+    background-color: beige;
+}
+
+
+
+/* start of main section ********/
+
+.container{
+    width: 90%;
+    height: 300px;
+    background-color: darksalmon;
+    margin-inline: auto;
+    margin-block: 30px;
+    position: relative;
+    box-shadow: inset 10px 10px 20px 1px black;
+    }
+.container div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/* End of manin section *********/
