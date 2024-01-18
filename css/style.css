@@ -29,8 +29,8 @@ div{
 }
 .relative{
     background-color: firebrick;
-    position: relative
-    left: 0;
+    position: relative;
+    left: 0px;
     top: 0;
 }
 .absolute{
@@ -43,7 +43,7 @@ div{
     width: 20px;
     height: 20px;
     background-color: rgb(116, 80, 150);
-    top: 50%,
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }

@@ -12,7 +12,7 @@ nav{
     background-color: crimson;
 }
 
-nav > a:{
+nav > a{
     display: inline-block;
     color: #333;
     text-decoration: none;
@@ -33,7 +33,7 @@ nav > a:hover, nav >a:focus{
 
 
 
-/* start of main section ********/
+/* start of main section */
 
 .container{
     width: 90%;
@@ -48,7 +48,21 @@ nav > a:hover, nav >a:focus{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
 }
 
-/* End of manin section *********/
+.container div[class=´box=1´]{
+    width: 70%;
+    height: 70%;
+    background-color: bisque;
+}
+.container div[id]{
+    width: 70%;
+    height:70%;
+    background-color: khaki;
+}
+[.container]
+
+
+
+/* End of manin section ********/
